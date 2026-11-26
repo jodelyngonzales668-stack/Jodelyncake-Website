@@ -1,0 +1,241 @@
+/* BODY */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #FFF7F8;
+    color: #B85C7A;
+    margin: 0;
+    text-align: center;
+}
+
+
+/* HEADER */
+
+header {
+    background-color: #B85C7A;
+    color: white;
+    padding: 20px;
+}
+
+
+/* NAV */
+
+nav {
+    margin-top: 15px;
+}
+
+nav a {
+    color: #f0eef5;
+    text-decoration: none;
+    margin: 10px;
+}
+
+nav a:hover {
+    color: #E8A0B8;
+}
+
+
+/* SECTION */
+
+section {
+    padding: 20px;
+}
+
+
+/* INPUT */
+
+input,
+textarea,
+select {
+    padding: 10px;
+    margin: 8px;
+    width: 250px;
+    border: 1px solid #E8A0B8;
+    border-radius: 6px;
+    background-color: white;
+}
+
+
+/* BUTTON */
+
+button {
+    background-color: #B85C7A;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #E8A0B8;
+    color: #B85C7A;
+}
+
+
+/* PRODUCT */
+
+.product {
+    background-color: white;
+    display: inline-block;
+    width: 200px;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(184,92,122,.15);
+}
+
+/* PRODUCT IMAGE */
+
+.image {
+    font-size: 10px;
+    background-color: #E8A0B8;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+
+/* CART */
+
+.cart-item {
+    background-color: white;
+    margin: 15px auto;
+    padding: 20px;
+    width: 500px;
+    max-width: 90%;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(184,92,122,.15);
+}
+
+.cart-item span {
+    font-size: 50px;
+}
+
+
+/* CHECKOUT */
+
+.checkout {
+    background-color: white;
+    margin: 15px auto;
+    padding: 25px;
+    width: 500px;
+    max-width: 90%;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(184,92,122,.15);
+}
+
+
+/* LOGIN */
+
+.login-container {
+    width: 90%;
+    max-width: 380px;
+    background-color: white;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 5px 20px rgba(184,92,122,.18);
+    text-align: center;
+}
+
+.logo {
+    font-size: 50px;
+}
+
+.login-container label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.login-container input {
+    width: 90%;
+    padding: 10px;
+    border: 1px solid #E8A0B8;
+    border-radius: 6px;
+}
+
+.login-container .btn {
+    width: 90%;
+}
+
+
+/* DIALOG */
+
+.dialog {
+    background-color: #E8A0B8;
+    padding: 20px;
+    margin: 20px auto;
+    width: 300px;
+    max-width: 85%;
+    border-radius: 12px;
+}
+
+
+/* FOOTER */
+
+footer {
+    background-color: #B85C7A;
+    color: white;
+    padding: 20px;
+    margin-top: 30px;
+}
+
+
+/* VIDEO */
+
+.cake-video {
+    width: 50%;
+    max-width: 300px;
+    height: auto;
+    display: block;
+    margin: 30px auto;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(184,92,122,.20);
+}
+
+
+/* RESPONSIVE */
+
+@media (max-width: 200px) {
+
+    .product {
+        width: 80%;
+    }
+
+    .cart-item,
+    .checkout {
+        width: 85%;
+    }
+
+    .cake-video {
+        width: 95%;
+    }
+
+    nav a {
+        display: block;
+        margin: 8px;
+    }
+}    
+
+.cake-container {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    flex-wrap: wrap;
+}
+
+.cake {
+    text-align: center;
+    width: 220px;
+}
+
+.cake img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+
+
+
